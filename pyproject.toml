@@ -19,3 +19,11 @@ license = {text = "MIT"}
 
 [tool.pdm]
 distribution = false
+
+[tool.ruff]
+select = ["*"]
+
+ignore = [
+    "E501", # Ignore line too long (often handled by a formatter)
+    "D203", # Ignore one-blank-line before class docstring 
+]
