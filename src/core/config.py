@@ -9,7 +9,7 @@ from pydantic_settings import (
 
 class RunConfig(BaseSettings):
     host: str = "0.0.0.0"
-    port: int = 8002
+    port: int = 8003
 
 
 class DatabaseConfig(BaseModel):
